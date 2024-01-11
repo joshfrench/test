@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     environment: test
     steps:
-      - echo 'Totally a real deploy'
+      - run: echo 'Totally a real deploy'
